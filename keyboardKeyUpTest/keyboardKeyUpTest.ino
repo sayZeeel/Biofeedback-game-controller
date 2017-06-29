@@ -1,5 +1,6 @@
 // HID code 
-	/**/
+	/*this code can be used with any hid enabled device, make sure that pin 3 is high if u want to upload any other code after uploading 
+	this one*/
   void setup() {
     pinMode( 2 ,OUTPUT);
     pinMode(3 , INPUT);
