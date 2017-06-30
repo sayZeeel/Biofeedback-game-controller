@@ -1,6 +1,6 @@
   
-
- 
+// you need to install the arduino keyboard library before using this code
+ //#include "Keyboard"
 void setup() {
   Serial.begin(9600);  }
   
@@ -11,7 +11,7 @@ void setup() {
  
 
     
-    if(voltage > 2.5)
+    if(voltage > 3)//normal emg sensor value is below 3
     Keyboard.write(218);// code for UpArrowKey
     delay(100);  
   }	
